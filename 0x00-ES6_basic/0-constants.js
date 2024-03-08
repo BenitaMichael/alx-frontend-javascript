@@ -9,5 +9,7 @@ export default function getLast(){
 
 export default function taskNext(){
 	let combination = "But sometimes let"
-	return combination += getLast();
+	combination += getLast();
+
+	return combination;
 }
